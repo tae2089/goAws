@@ -1,4 +1,4 @@
-module goAws
+module github.com/tae2089/goAws
 
 go 1.17
 
