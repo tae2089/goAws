@@ -1,2 +1,6 @@
 target
 script
+run/
+.idea
+*.DS_Store
+

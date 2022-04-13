@@ -1,4 +1,4 @@
-package main
+package goAws
 
 type SetConfig interface {
 	SetConfigByDefault() error

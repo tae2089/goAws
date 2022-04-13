@@ -1,4 +1,4 @@
-package main
+package iam
 
 import (
 	"context"
@@ -25,7 +25,7 @@ func (i *IamInfo) GetPolicyList() {
 	}
 	for _, policy := range paginator.Policies {
 		fmt.Println(policy.PolicyName)
-			
+
 	}
 }
 
